@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "python-package"
 version = "0.1.0"
-description = ""
+description = "An empty python package."
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 
 [tool.poetry.dependencies]
