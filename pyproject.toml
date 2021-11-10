@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-package"
+version = "0.1.0"
+description = ""
+authors = ["Nuno Costa <91nunocosta@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^3.0.0"
+nox-poetry = "^0.8.6"
+coverage-badge = "^1.0.2"
+language-tool-python = "^2.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
