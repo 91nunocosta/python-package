@@ -60,3 +60,9 @@ repos:
         require_serial: true
         pass_filenames: false
         verbose: true
+        args: [
+          "--cov-fail-under", "100",
+          "--cov", "python_package",
+          "--doctest-modules",
+          "--doctest-glob", "README.md",
+        ]
