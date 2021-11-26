@@ -1,4 +1,4 @@
-from python_package import __version__
+from prototype_python_library import __version__
 
 
 def test_version():
