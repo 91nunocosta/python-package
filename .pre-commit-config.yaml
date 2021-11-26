@@ -62,7 +62,7 @@ repos:
         verbose: true
         args: [
           "--cov-fail-under", "100",
-          "--cov", "python_package",
+          "--cov", "prototype_python_library",
           "--doctest-modules",
           "--doctest-glob", "README.md",
         ]

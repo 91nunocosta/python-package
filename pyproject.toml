@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "python-package"
+name = "prototype-python-library"
 version = "0.1.0"
-description = "An empty python package."
+description = "A prototype python library."
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 
 [tool.poetry.dependencies]
