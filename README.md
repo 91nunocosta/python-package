@@ -50,40 +50,14 @@ Chose the method that is more convenient to you, for example:
 1. Prepare the development environment, as described in
 [**How to prepare the development environment**](#how-to-prepare-the-development-environment).
 
-2. Run katapy check command to verify the code quality:
-
-   - all checks:
+2. Lint and test code
 
      ```bash
-     katapy check
+     pre-commit run --all-files
      ```
 
-   - only check source code using [_pre-commit_](https://pre-commit.com/):
+3. Test package artifact
 
-     ```bash
-     katapy -s precommit.run
-     ```
-
-   - only test package, using [tox](https://tox.wiki/en/latest/) and [_pytest_](https://docs.pytest.org/en/6.2.x/):
-
-     ```bash
-     katapy -s tox.run
-     ```. Run katapy check command to verify the code quality:
-
-   - all checks:
-
-     ```bash
-     katapy check
-     ```
-
-   - only check source code using [_pre-commit_](https://pre-commit.com/):
-
-     ```bash
-     katapy -s precommit.run
-     ```
-
-   - only test package, using [tox](https://tox.wiki/en/latest/) and [_pytest_](https://docs.pytest.org/en/6.2.x/):
-
-     ```bash
-     katapy -s tox.run
-     ```
+    ```bash
+    tox
+    ```
