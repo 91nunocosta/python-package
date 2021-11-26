@@ -1,7 +1,7 @@
-name: Lint
+name: Check
 on: [push]
 jobs:
-  lint:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,5 +17,11 @@ jobs:
       - name: Create virtual environment
         run: poetry install
 
-      - name: Lint
+      - name: Lint and test code
         run: poetry run pre-commit run --all-files
+
+      - name: Install tox
+        run: pip install tox
+
+      - name: Test package compatibility
+        run: tox
