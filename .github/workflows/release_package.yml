@@ -1,0 +1,22 @@
+name: Release package
+on: [push]
+jobs:
+  release-package:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install poetry
+        run: pip install poetry
+
+      - name: Configure pypi token
+        run: poetry config pypi-token.pypi ${{ secrets.PYPI }}
+
+      - name: Publish to pypi
+        run: poetry publish --build
