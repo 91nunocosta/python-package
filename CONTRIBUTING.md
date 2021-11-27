@@ -66,7 +66,7 @@ You can check the _pre-commit_ phase locally:
 pre-commit --all-files
 ```
 
-# Tox
+## Tox
 
 Tox builds the package and tests it with the python version configured in [tox.ini](./tox.ini).
 You can check the _tox_ phase locally:
