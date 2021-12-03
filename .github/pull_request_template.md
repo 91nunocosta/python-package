@@ -1,34 +1,35 @@
 <!-- markdownlint-disable first-line-heading -->
 
+***Before opening the PR make sure to follow the [contribution guidelines](../CONTRIBUTING.md).***
+
 ## BREAKING CHANGE (remove if there are no breaking changes)
 
-    - *breaking change 1*
-    - *breaking change 2*
-    ...
-    - *breaking change n*
+- *breaking change 1*
+- *breaking change 2*
+- *breaking change n*
 
 ## Goal
 
 Explain why you are opening the PR.
 
-    - **Does the PR close an open issue?**
+- **Does the PR close an open issue?**
 
-      Link it here with `closes #ISSUE_NUMBER`.
+  Link it here with `closes #ISSUE_NUMBER`.
 
-    - **Does the PR introduce a new feature?**
+- **Does the PR introduce a new feature?**
 
-      Please write this section according to the [feature issue template](./../ISSUE_TEMPLATE/feature_request.md)
-      You can also open an Issue and link it here.
+   Please write this section according to the [feature issue template](./../ISSUE_TEMPLATE/feature_request.md)
+   You can also open an Issue and link it here.
 
-    - **Does the PR introduces fixes a bug?**
+- **Does the PR introduces fixes a bug?**
 
-      Please write this section according to the [bug issue template](./../ISSUE_TEMPLATE/bug_report.md).
-      You can also open an Issue and link it here.
+  Please write this section according to the [bug issue template](./../ISSUE_TEMPLATE/bug_report.md).
+  You can also open an Issue and link it here.
 
-    - **None of the above applies?**
+- **None of the above applies?**
 
-      Write a brief explanation of the improvement you want to introduce.
-      Mention what the situation is before the improvement and the expected outcome.
+  Write a brief explanation of the improvement you want to introduce.
+  Mention what the situation is before the improvement and the expected outcome.
 
 ## How?
 
