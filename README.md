@@ -24,3 +24,8 @@ pip install prototype-python-library
 Doing!
 
 ```
+
+## Contributing
+
+If you want to contribute, please read the [contributing guidelines](./CONTRIBUTING.md)
+and [code of conduct](./CODE_OF_CONDUCT.md).
