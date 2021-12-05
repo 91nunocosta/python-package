@@ -3,7 +3,6 @@ name: Check package
 on: [pull_request]  # yamllint disable-line rule:truthy
 jobs:
   check:
-    if: github.ref != 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,15 +11,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-
-      - name: Install poetry
-        run: pip install poetry
-
-      - name: Create virtual environment
-        run: poetry install
-
-      - name: Lint and test code
-        run: poetry run pre-commit run --all-files
 
       - name: Install tox
         run: pip install tox
