@@ -1,5 +1,5 @@
 ---
-name: Check package
+name: Test package
 on: [pull_request]  # yamllint disable-line rule:truthy
 jobs:
   check:
@@ -11,9 +11,16 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
+          cache: pip
 
       - name: Install tox
         run: pip install tox
 
-      - name: Test package compatibility
+      - name: Cache tox environments
+        uses: actions/cache@v1
+        with:
+          path: .tox
+          key: tox|${{ hashFiles('tox.ini')}}
+
+      - name: Test package
         run: tox
