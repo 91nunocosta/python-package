@@ -1,5 +1,6 @@
-name: Check
-on: [push]
+---
+name: Check package
+on: [pull_request]  # yamllint disable-line rule:truthy
 jobs:
   check:
     if: github.ref != 'refs/heads/master'
