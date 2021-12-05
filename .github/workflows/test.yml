@@ -2,7 +2,7 @@
 name: Test package
 on: [pull_request]  # yamllint disable-line rule:truthy
 jobs:
-  check:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
