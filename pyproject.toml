@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "prototype-python-library"
-version = "0.1.1"
+version = "0.2.0"
 description = "A prototype python library."
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 
