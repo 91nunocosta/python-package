@@ -20,7 +20,7 @@ jobs:
           python-version: 3.9
 
       - name: Install poetry
-        run: pip install poetry pytest
+        run: pip install poetry pytest pytest-cov
 
       - name: Install package from source
         run: poetry install
