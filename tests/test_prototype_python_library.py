@@ -1,5 +1,5 @@
-from prototype_python_library import __version__
+from prototype_python_library import do
 
 
-def test_version():
-    assert __version__ == "0.2.0"
+def test_do():
+    assert do() is None
