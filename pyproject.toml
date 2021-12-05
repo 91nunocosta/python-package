@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "prototype-python-library"
-version = "0.2.0"
+version = "0.2.1"
 description = "A prototype python library."
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.7,<4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
