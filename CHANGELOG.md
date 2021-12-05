@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2021-12-05)
+### Feature
+* Implement fib ([`45473f2`](https://github.com/91nunocosta/python-package/commit/45473f251783b7a6ff1e674c5a54ae3cdf5255ed))
+
 ## v0.3.0 (2021-12-05)
 ### Feature
 * Add project description ([`0dc9f50`](https://github.com/91nunocosta/python-package/commit/0dc9f502ffcb975ca9b50eddf728a69f2639d651))
