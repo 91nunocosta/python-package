@@ -9,8 +9,15 @@ An empty python package.
 __version__ = "0.4.0"
 
 
-def fib(n: int):
-    """Compute the nth element in the fibonacci sequence."""
+def fib(n: int) -> int:
+    """Compute an element in the fibonacci sequence.
+
+    Arguments:
+        n (int): the position in the sequence.
+
+    Returns:
+        The nth element in the fibonacci sequence.
+    """
     if n == 0:
         return 0
 
