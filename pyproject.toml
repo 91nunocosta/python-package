@@ -17,6 +17,7 @@ yamllint = "^1.26.3"
 tox = "^3.24.4"
 pydocstyle = "^6.1.1"
 mypy = "^0.910"
+darglint = "^1.8.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

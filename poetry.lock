@@ -162,6 +162,14 @@ ssh = ["bcrypt (>=3.1.5)"]
 test = ["pytest (>=6.2.0)", "pytest-cov", "pytest-subtests", "pytest-xdist", "pretend", "iso8601", "pytz", "hypothesis (>=1.11.4,!=3.79.2)"]
 
 [[package]]
+name = "darglint"
+version = "1.8.1"
+description = "A utility for ensuring Google-style docstrings stay up to date with the source code."
+category = "dev"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[[package]]
 name = "distlib"
 version = "0.3.3"
 description = "Distribution utilities"
@@ -846,7 +854,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.7,<4.0"
-content-hash = "e96ca2eaf43fe1c4fd35076546fe05ad81869e5a3cddda7fe154f70b9634788f"
+content-hash = "d74d8b46a081df36002a762691d450c8586b06a41f2d8e32b0748a736185e91d"
 
 [metadata.files]
 atomicwrites = [
@@ -1016,6 +1024,10 @@ cryptography = [
     {file = "cryptography-36.0.0-pp38-pypy38_pp73-manylinux_2_24_x86_64.whl", hash = "sha256:f92556f94e476c1b616e6daec5f7ddded2c082efa7cee7f31c7aeda615906ed8"},
     {file = "cryptography-36.0.0-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:d73e3a96c38173e0aa5646c31bf8473bc3564837977dd480f5cbeacf1d7ef3a3"},
     {file = "cryptography-36.0.0.tar.gz", hash = "sha256:52f769ecb4ef39865719aedc67b4b7eae167bafa48dbc2a26dd36fa56460507f"},
+]
+darglint = [
+    {file = "darglint-1.8.1-py3-none-any.whl", hash = "sha256:5ae11c259c17b0701618a20c3da343a3eb98b3bc4b5a83d31cdd94f5ebdced8d"},
+    {file = "darglint-1.8.1.tar.gz", hash = "sha256:080d5106df149b199822e7ee7deb9c012b49891538f14a11be681044f0bb20da"},
 ]
 distlib = [
     {file = "distlib-0.3.3-py2.py3-none-any.whl", hash = "sha256:c8b54e8454e5bf6237cc84c20e8264c3e991e824ef27e8f1e81049867d861e31"},
