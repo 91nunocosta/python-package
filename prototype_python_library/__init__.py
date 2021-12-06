@@ -12,7 +12,7 @@ __version__ = "0.4.0"
 def fib(n: int) -> int:
     """Compute an element in the fibonacci sequence.
 
-    Arguments:
+    Args:
         n (int): the position in the sequence.
 
     Returns:
