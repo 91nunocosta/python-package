@@ -50,10 +50,12 @@ repos:
     hooks:
       - id: pydocstyle
         additional_dependencies: [toml]
+        exclude: "docs/.*"
   - repo: https://github.com/terrencepreilly/darglint
     rev: v1.8.1
     hooks:
       - id: darglint
+        exclude: "docs/.*"
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v2.20.0
     hooks:
