@@ -1,7 +1,9 @@
+"""Test prototype_python_library module."""
 from prototype_python_library import fib
 
 
 def test_fib():
+    """Test fib function."""
     assert fib(0) == 0
     assert fib(1) == 1
     assert fib(2) == 1
