@@ -1,7 +1,7 @@
 # -- Project information
 
 project = "Prototype Python Project"
-copyright = "2021, Nuno Costa"
+copyright = "2021, Nuno Costa"  # pylint: disable=redefined-builtin
 author = "Nuno Costa"
 
 release = "0.4"
