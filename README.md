@@ -4,6 +4,10 @@
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![codecov](https://codecov.io/gh/91nunocosta/python-package/branch/master/graph/badge.svg?token=7T24BIO7QU)](https://codecov.io/gh/91nunocosta/python-package)
+![PyPI - License](https://img.shields.io/pypi/l/prototype-python-library)
+![PyPI](https://img.shields.io/pypi/v/prototype-python-library)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/prototype-python-library)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/prototype-python-library)
 [![docs](https://readthedocs.org/projects/prototype-python-package/badge/?version=latest)](https://prototype-python-package.readthedocs.io/en/latest/)
 
 An empty python package.
