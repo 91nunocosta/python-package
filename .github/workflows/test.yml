@@ -5,9 +5,7 @@ on:  # yamllint disable-line rule:truthy
     paths:
       - '**.py'
       - 'pyproject.toml'
-    paths-ignore:
-      - 'docs/**'
-
+      - '!docs/**'
 jobs:
   test:
     runs-on: ubuntu-latest
