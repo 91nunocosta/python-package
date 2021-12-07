@@ -14,7 +14,6 @@ python = ">=3.7,<4.0"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 pytest-cov = "^3.0.0"
-coverage-badge = "^1.0.2"
 pre-commit = "^2.15.0"
 python-semantic-release = "^7.23.0"
 yamllint = "^1.26.3"
