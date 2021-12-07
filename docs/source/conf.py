@@ -1,5 +1,3 @@
-# Configuration file for the Sphinx documentation builder.
-
 # -- Project information
 
 project = "Prototype Python Project"
@@ -28,9 +26,14 @@ intersphinx_disabled_domains = ["std"]
 
 templates_path = ["_templates"]
 
-# -- Options for HTML output
+#  -- Theme options
+# see https://alabaster.readthedocs.io/en/latest/installation.html
 
-html_theme = "sphinx_rtd_theme"
+html_theme = "alabaster"
 
-# -- Options for EPUB output
-epub_show_urls = "footnote"
+html_theme_options = {
+    # logo.png should be under docs/source/_static
+    # 'logo': 'logo.png',
+    "github_user": "91nunocosta",
+    "github_repo": "prototype-python-library",
+}
