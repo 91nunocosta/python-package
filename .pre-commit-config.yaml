@@ -36,6 +36,13 @@ repos:
       - id: flake8
         # for black compatibility
         args: ["--max-line-length", "88"]
+  - repo: https://github.com/PyCQA/prospector
+    rev: 1.1.7.dev0
+    hooks:
+      - id: prospector
+        args:
+          - "-W"
+          - "pyflakes"
   - repo: https://github.com/PyCQA/bandit
     rev: 1.7.1
     hooks:
