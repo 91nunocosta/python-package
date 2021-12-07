@@ -1,6 +1,8 @@
 """
 An empty python package.
 
+Examples
+--------
 >>> from prototype_python_library import fib
 >>> fib(0)
 0
