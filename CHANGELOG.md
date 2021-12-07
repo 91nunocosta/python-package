@@ -2,6 +2,18 @@
 
 <!--next-version-placeholder-->
 
+## v0.6.0 (2021-12-07)
+### Feature
+* Add package metadata ([`b443821`](https://github.com/91nunocosta/prototype-python-library/commit/b443821ed975a1df49c9b7e16662679a3ac02e38))
+
+### Documentation
+* Add codacy code badge ([`14255a0`](https://github.com/91nunocosta/prototype-python-library/commit/14255a0d84795137dfff5d5abde672ff45f2de08))
+* Add pypi badges ([`63a1c26`](https://github.com/91nunocosta/prototype-python-library/commit/63a1c266379ee52f526c5dc442600f8d938e8ebe))
+* Add docs badge ([`6be1327`](https://github.com/91nunocosta/prototype-python-library/commit/6be13273be6a0ecf3362ccee67d94b505dc067c0))
+* Fix readme ([`b2170d6`](https://github.com/91nunocosta/prototype-python-library/commit/b2170d61654b036fa15d71482a019cc00e9bf762))
+* Improve documentation ([`4862b5d`](https://github.com/91nunocosta/prototype-python-library/commit/4862b5d1102334f5b4ac45b06f43218c5c915199))
+* Update readme ([`46ac6d9`](https://github.com/91nunocosta/prototype-python-library/commit/46ac6d98358dd84231a4cc2138dd1eff5b7d0e4b))
+
 ## v0.5.0 (2021-12-07)
 ### Feature
 * Nothing ([`93f0511`](https://github.com/91nunocosta/python-package/commit/93f0511958122bc04a69246874b6d87742cb61e5))
