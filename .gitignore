@@ -3,4 +3,5 @@
 dist/
 .tox
 coverage.xml
-docs/_build
+docs/build
+docs/source/generated
