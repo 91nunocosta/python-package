@@ -6,8 +6,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/91nunocosta/prototype-python-library/Semantic%20Release)
 ![PyPI - License](https://img.shields.io/pypi/l/prototype-python-library)
 ![PyPI](https://img.shields.io/pypi/v/prototype-python-library)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/prototype-python-library)
-![PyPI - Wheel](https://img.shields.io/pypi/wheel/prototype-python-library)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/prototype-python-library)](https://pypi.org/project/prototype-python-library/)
 [![docs](https://readthedocs.org/projects/prototype-python-package/badge/?version=latest)](https://prototype-python-package.readthedocs.io/en/latest/)
 
 An empty python package.
