@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.8.0 (2021-12-07)
+### Feature
+* Remove classifiers ([`19c7c59`](https://github.com/91nunocosta/prototype-python-library/commit/19c7c598d4e2ee46437114ed813c71fb19319527))
+
 ## v0.7.0 (2021-12-07)
 ### Feature
 * Fix pyproject ([`87fa68d`](https://github.com/91nunocosta/prototype-python-library/commit/87fa68d87df31e8e1ed06dc603eda84d66b0c2ff))
