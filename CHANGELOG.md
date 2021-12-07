@@ -2,6 +2,18 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.0 (2021-12-07)
+### Feature
+* Nothing ([`93f0511`](https://github.com/91nunocosta/python-package/commit/93f0511958122bc04a69246874b6d87742cb61e5))
+
+### Documentation
+* Add napoleon ([`7d944ae`](https://github.com/91nunocosta/python-package/commit/7d944ae8a4cdc4ed7cb24ef32469bf8c94898a8b))
+* Change according to readthedocs template ([`e049ded`](https://github.com/91nunocosta/python-package/commit/e049dedd5ee88a6eb33847adc7a343435e8a42f8))
+* Add readthedocs requirements ([`115d899`](https://github.com/91nunocosta/python-package/commit/115d8992f9cba97cdaf6b12a5e613e9e8a53ba2e))
+* Add readthedocs config ([`f7e2b99`](https://github.com/91nunocosta/python-package/commit/f7e2b99025788db63ef6df047d6bb2da22fab7b0))
+* Add missing docstrings ([`9d2661b`](https://github.com/91nunocosta/python-package/commit/9d2661b492c46b43835443179c43148dc6bff4c8))
+* Add documentation ([`8fcb69e`](https://github.com/91nunocosta/python-package/commit/8fcb69e404b9731f67c2a032b9736f4d96bc8ee1))
+
 ## v0.4.0 (2021-12-05)
 ### Feature
 * Implement fib ([`45473f2`](https://github.com/91nunocosta/python-package/commit/45473f251783b7a6ff1e674c5a54ae3cdf5255ed))
