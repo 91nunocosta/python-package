@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.0 (2021-12-07)
+### Feature
+* Fix pyproject ([`87fa68d`](https://github.com/91nunocosta/prototype-python-library/commit/87fa68d87df31e8e1ed06dc603eda84d66b0c2ff))
+
 ## v0.6.0 (2021-12-07)
 ### Feature
 * Add package metadata ([`b443821`](https://github.com/91nunocosta/prototype-python-library/commit/b443821ed975a1df49c9b7e16662679a3ac02e38))
