@@ -7,23 +7,9 @@ An empty python package.
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![codecov](https://codecov.io/gh/91nunocosta/python-package/branch/master/graph/badge.svg?token=7T24BIO7QU)](https://codecov.io/gh/91nunocosta/python-package)
 
-## Installation
-
-You can install the package using [pip](https://pip.pypa.io/en/stable/installation/).
-
-```bash
-pip install prototype-python-library
-```
-
 ## Usage
 
-```python
-
->>> from prototype_python_library import do
->>> do()
-Doing!
-
-```
+Read the [documentation](https://prototype-python-package.readthedocs.io/en/latest/).
 
 ## Contributing
 
