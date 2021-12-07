@@ -31,12 +31,6 @@ repos:
     rev: 21.12b0
     hooks:
       - id: black
-  - repo: https://github.com/PyCQA/flake8
-    rev: 4.0.1
-    hooks:
-      - id: flake8
-        # for black compatibility
-        args: ["--max-line-length", "88"]
   - repo: https://github.com/PyCQA/prospector
     rev: 1.1.7.dev0
     hooks:
@@ -53,12 +47,6 @@ repos:
     rev: v0.910-1
     hooks:
       - id: mypy
-  - repo: https://github.com/PyCQA/pydocstyle
-    rev: 6.1.1
-    hooks:
-      - id: pydocstyle
-        additional_dependencies: [toml]
-        exclude: "docs/.*"
   - repo: https://github.com/terrencepreilly/darglint
     rev: v1.8.1
     hooks:
