@@ -1,11 +1,11 @@
-"""
-An empty python package.
+"""An empty python package.
 
 Examples
 --------
 >>> from prototype_python_library import fib
 >>> fib(0)
 0
+
 """
 
 __version__ = "0.8.0"
