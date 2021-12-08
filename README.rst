@@ -5,7 +5,7 @@ Python Package
     :alt: Cookiecutter
     :target: https://github.com/91nunocosta/python-package-cookiecutter
 
-.. image:: https://img.shields.io/github/license/91nunocosta/prototype-python-library?style=for-the-badge
+.. image:: https://img.shields.io/github/license/91nunocosta/prototype-python-library
     :alt: GitHub
     :target: https://github.com/91nunocosta/prototype-python-library/blob/master/LICENSE
 
