@@ -1,18 +1,13 @@
-"""An empty python package.
-
-Examples
---------
->>> from prototype_python_library import fib
->>> fib(0)
-0
-
-"""
+"""An empty python package."""
 
 __version__ = "0.8.0"
 
 
 def fib(n: int) -> int:
     """Compute an element in the fibonacci sequence.
+
+    >>> fib(0)
+    0
 
     Args:
         n (int): the position in the sequence.
