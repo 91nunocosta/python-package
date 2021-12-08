@@ -22,6 +22,10 @@ repos:
     rev: v0.30.0
     hooks:
       - id: markdownlint
+  - repo: https://github.com/myint/rstcheck
+    rev: master
+    hooks:
+      - id: rstcheck
   - repo: https://github.com/PyCQA/isort
     rev: 5.10.1
     hooks:
