@@ -49,8 +49,6 @@ Make sure your PR passes the _quality assurance_ checks:
 
 2. [tests](https://github.com/91nunocosta/prototype-python-library/actions/workflows/test.yml)
 
-[check](https://github.com/91nunocosta/python-package/actions/workflows/check.yml).
-
 You can run these checks locally.
 
 ## Pre-commit
