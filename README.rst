@@ -35,10 +35,22 @@ Python Package
 
 An empty python package.
 
-Usage
-=======
+Installation
+============
 
-Read the `documentation <https://prototype-python-package.readthedocs.io/en/latest/>`_.
+.. code-block:: console
+
+    pip install prototype-python-library
+
+Usage
+=====
+
+>>> from prototype_python_library import fib
+>>> fib(0)
+0
+
+
+For more details read the `documentation <https://prototype-python-package.readthedocs.io/en/latest/>`_.
 
 Contributing
 ==============
