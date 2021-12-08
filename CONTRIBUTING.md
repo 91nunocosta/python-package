@@ -43,13 +43,15 @@ If you want to add a new feature, fix some bug, improve the documentation
 or enhance the CI/CD, open a
 [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-Make sure your PR passes the _quality assurance_
+Make sure your PR passes the _quality assurance_ checks:
+
+1. [pre-commit.ci](https://results.pre-commit.ci/repo/github/426730867)
+
+2. [tests](https://github.com/91nunocosta/prototype-python-library/actions/workflows/test.yml)
+
 [check](https://github.com/91nunocosta/python-package/actions/workflows/check.yml).
-Otherwise, the Pull Request can not merge. The check consists of 2 phases:
 
-1. try [pre-commit](https://pre-commit.com/).
-
-2. try [tox](https://tox.wiki/en/latest/index.html).
+You can run these checks locally.
 
 ## Pre-commit
 
@@ -66,9 +68,9 @@ You can check the _pre-commit_ phase locally:
 pre-commit --all-files
 ```
 
-## Tox
+## Tests
 
-Tox builds the package and tests it with the python version configured in [tox.ini](./tox.ini).
+Tests are executed by [tox.ini](./tox.ini).
 You can check the _tox_ phase locally:
 
 1. Prepare the development environment, as described in
