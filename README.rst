@@ -55,4 +55,4 @@ For more details read the `documentation <https://prototype-python-package.readt
 Contributing
 ------------
 
-If you want to contribute, please read the `contributing guidelines <./CONTRIBUTING.md>`_ and `code of conduct <./CODE*OF*CONDUCT.md>`_.
+If you want to contribute, please read the `contributing guidelines <./CONTRIBUTING.md>`_ and `code of conduct <./CODE_OF_CONDUCT.md>`_.
