@@ -36,14 +36,14 @@ Python Package
 An empty python package.
 
 Installation
-============
+------------
 
 .. code-block:: console
 
     pip install prototype-python-library
 
 Usage
-=====
+-----
 
 >>> from prototype_python_library import fib
 >>> fib(0)
@@ -53,6 +53,6 @@ Usage
 For more details read the `documentation <https://prototype-python-package.readthedocs.io/en/latest/>`_.
 
 Contributing
-==============
+------------
 
 If you want to contribute, please read the `contributing guidelines <./CONTRIBUTING.md>`_ and `code of conduct <./CODE*OF*CONDUCT.md>`_.
