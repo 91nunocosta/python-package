@@ -43,6 +43,4 @@ Read the `documentation <https://prototype-python-package.readthedocs.io/en/late
 Contributing
 ==============
 
-If you want to contribute, please read the `contributing guidelines <./CONTRIBUTING.md>`_
-
-and `code of conduct <./CODE*OF*CONDUCT.md>`_.
+If you want to contribute, please read the `contributing guidelines <./CONTRIBUTING.md>`_ and `code of conduct <./CODE*OF*CONDUCT.md>`_.
