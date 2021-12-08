@@ -35,12 +35,12 @@ Python Package
 
 An empty python package.
 
-# Usage
+Usage
 =======
 
 Read the `documentation <https://prototype-python-package.readthedocs.io/en/latest/>`_.
 
-# Contributing
+Contributing
 ==============
 
 If you want to contribute, please read the `contributing guidelines <./CONTRIBUTING.md>`_
