@@ -63,7 +63,7 @@ You can check the _pre-commit_ phase locally:
 2. Run pre-commit with all files.
 
 ```bash
-pre-commit --all-files
+pre-commit run --all-files
 ```
 
 ## Tests
