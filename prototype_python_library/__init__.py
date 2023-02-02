@@ -52,6 +52,22 @@ def subtract(a: int, b: int) -> int:
     return a - b
 
 
+def divide(a: int, b: int) -> int:
+    """Compute division of two integers.
+
+    >>> divide(4, 2)
+    2
+
+    Args:
+        a (int): 1st integer
+        b (int): 2nd integer
+
+    Returns:
+        int: division of a by b
+    """
+    return a // b
+
+
 def fib(n: int) -> int:
     """Compute an element in the fibonacci sequence.
 
