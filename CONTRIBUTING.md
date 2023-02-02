@@ -1,5 +1,6 @@
+# Contributing
 
-# Preparing the development environment
+## Preparing the development environment
 
 If you want to test or change the source code, prepare your local environment.
 
@@ -43,7 +44,7 @@ Chose the method that is more convenient to you, for example:
    pre-commit install -t pre-commit, pre-post, commit-msg
    ```
 
-# Suggesting changes
+## Suggesting changes
 
 If you want to add a new feature, fix some bug, improve the documentation
 or enhance the CI/CD, open a
@@ -57,7 +58,7 @@ Make sure your PR passes the _quality assurance_ checks:
 
 You can run these checks locally.
 
-## Pre-commit
+### Pre-commit
 
 Pre-commit runs the linters and tests configured in
 [.pre-commit-config.yaml](./.pre-commit-config.yaml).
@@ -72,7 +73,7 @@ You can check the _pre-commit_ phase locally:
 pre-commit run --all-files
 ```
 
-## Tests
+### Tests
 
 Tests are executed by [tox.ini](./tox.ini).
 You can check the _tox_ phase locally:
@@ -86,9 +87,10 @@ You can check the _tox_ phase locally:
 tox
 ```
 
-# Releasing new package version
+## Releasing new package version
 
-1. Ensure you have permissions to upload into https://pypi.org/project/prototype-python-library/.
+1. Ensure you have permissions to upload into
+<https://pypi.org/project/prototype-python-library/.>
 
 2. Prepare the development environment, as described in
 [**Preparing the development environment**](#preparing-the-development-environment).
