@@ -2,6 +2,15 @@
 
 <!--next-version-placeholder-->
 
+## v0.10.0 (2023-02-02)
+### Feature
+* Add multiplication ([`5b54fb5`](https://github.com/91nunocosta/prototype-python-library/commit/5b54fb58998f1b4955acd71fb6158bced4082dac))
+
+### Documentation
+* Add missing functions to API reference ([`1d46841`](https://github.com/91nunocosta/prototype-python-library/commit/1d468417501fed15042c3d0fc8ea4c5230721e9a))
+* Update version ([`0cdf959`](https://github.com/91nunocosta/prototype-python-library/commit/0cdf959dbabe613c37fd72bbf6b5cc327ee6311d))
+* **dev:** Document pre-commit hooks installation ([`9789751`](https://github.com/91nunocosta/prototype-python-library/commit/97897519717c51f0d04826c67d1afb64a88d5c16))
+
 ## v0.9.0 (2023-02-02)
 ### Feature
 * Add add and subtract functions ([`98b5b66`](https://github.com/91nunocosta/prototype-python-library/commit/98b5b664a8340fab8ff164fc307607e7778c067c))
