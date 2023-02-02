@@ -2,6 +2,29 @@
 
 <!--next-version-placeholder-->
 
+## v0.9.0 (2023-02-02)
+### Feature
+* Add add and subtract functions ([`98b5b66`](https://github.com/91nunocosta/prototype-python-library/commit/98b5b664a8340fab8ff164fc307607e7778c067c))
+
+### Documentation
+* **gh_templates:** Improve bug report template ([`91bc696`](https://github.com/91nunocosta/prototype-python-library/commit/91bc69675c03b8a33d275a2382f6843ee45382ea))
+* **gh_templates:** Improve pr template ([`92749c8`](https://github.com/91nunocosta/prototype-python-library/commit/92749c8ad7b0c9f370448431ccd849024f3e883e))
+* **readme:** Fix url ([`b0c45fd`](https://github.com/91nunocosta/prototype-python-library/commit/b0c45fd8df1d3ff0a4b84b0440d5d5f7d31a7d2f))
+* **contributting:** Fix ([`5961db9`](https://github.com/91nunocosta/prototype-python-library/commit/5961db9d0d545c695647d279dc6a83064f64459a))
+* **contributing:** Fix urls ([`2e9b99b`](https://github.com/91nunocosta/prototype-python-library/commit/2e9b99b49f30427bc2dffe39fe45d25aaa3941a9))
+* **docstring:** Improve ([`b32e929`](https://github.com/91nunocosta/prototype-python-library/commit/b32e9297e8a3304708877a4fcf8d0308f8600b35))
+* **docs:** Improve documentation structure ([`183b161`](https://github.com/91nunocosta/prototype-python-library/commit/183b16105cba59bdf22d9db8895d39fca9282f5e))
+* **readme:** Fix headers ([`137b2bf`](https://github.com/91nunocosta/prototype-python-library/commit/137b2bf34c37ac44636265a9f14c4b50074c3ed3))
+* **readme:** Improve read me ([`631efad`](https://github.com/91nunocosta/prototype-python-library/commit/631efadc85ef21c0b5b5c26176626d0204b45b2f))
+* **readme:** Improve ([`f42185a`](https://github.com/91nunocosta/prototype-python-library/commit/f42185abf87d426f515ba5fe29d84fd3b2e2f475))
+* **readme:** Remove badge style from license ([`237f5aa`](https://github.com/91nunocosta/prototype-python-library/commit/237f5aade26ba0c93bd267855b5dafc1b07a091d))
+* **readme:** Change badges styles ([`0026d4b`](https://github.com/91nunocosta/prototype-python-library/commit/0026d4bb295d4e2f15833c82033181acea5ebb54))
+* **readme:** Migrate from md to rst ([`19432f9`](https://github.com/91nunocosta/prototype-python-library/commit/19432f9eb308d0212f2f2e70a9aab1b4a6246d56))
+* Replace codecov badge ([`35809cf`](https://github.com/91nunocosta/prototype-python-library/commit/35809cf396b60861ed5e9bba7ae07e3bd49993a0))
+* Improve badges ([`7fe988d`](https://github.com/91nunocosta/prototype-python-library/commit/7fe988dec88842c14fca1eb527c730eac23493b2))
+* Improve badges ([`de860bf`](https://github.com/91nunocosta/prototype-python-library/commit/de860bf498ac76c87f4783eef84c23e7da7de95e))
+* Improve cookiecutter badge ([`54533c8`](https://github.com/91nunocosta/prototype-python-library/commit/54533c8b6a8314ee7d2783277f61080b782fce7c))
+
 ## v0.8.0 (2021-12-07)
 ### Feature
 * Remove classifiers ([`19c7c59`](https://github.com/91nunocosta/prototype-python-library/commit/19c7c598d4e2ee46437114ed813c71fb19319527))
