@@ -6,3 +6,4 @@ coverage.xml
 docs/build
 docs/source/generated
 .secrets
+docs/source/_build
