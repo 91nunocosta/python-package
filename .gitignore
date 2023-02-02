@@ -5,3 +5,4 @@ dist/
 coverage.xml
 docs/build
 docs/source/generated
+.secrets
