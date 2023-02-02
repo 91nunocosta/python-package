@@ -22,14 +22,6 @@ repos:
     rev: v0.33.0
     hooks:
       - id: markdownlint
-  - repo: https://github.com/myint/rstcheck
-    rev: v6.1.1
-    hooks:
-      - id: rstcheck
-        args:
-          # rstcheck fails importing shpinx extensions
-          - "--ignore-directives"
-          - "autosummary,toctree"
   - repo: https://github.com/PyCQA/isort
     rev: 5.12.0
     hooks:
