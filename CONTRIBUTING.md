@@ -37,6 +37,12 @@ Chose the method that is more convenient to you, for example:
    poetry shell
    ```
 
+6. Install pre-commit verifications.
+
+   ```bash
+   pre-commit install -t pre-commit, pre-post, commit-msg
+   ```
+
 # Suggesting changes
 
 If you want to add a new feature, fix some bug, improve the documentation
