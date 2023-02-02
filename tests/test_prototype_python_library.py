@@ -25,7 +25,7 @@ def test_power():
 
 def test_division():
     """Test divide function."""
-    assert division(4, 2) == 2
+    assert divide(4, 2) == 2
 
 
 def test_fib():
