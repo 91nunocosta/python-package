@@ -19,6 +19,23 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
+def multiply(a: int, b: int) -> int:
+    """Compute the multiplication of two integers.
+
+    >>> multiply(2, 2)
+    4
+
+    Args:
+        a (int): 1st integer
+        b (int): 2nd integer
+
+    Returns:
+        The multiplication of a and b.
+
+    """
+    return a * b
+
+
 def subtract(a: int, b: int) -> int:
     """Compute the difference between two integers.
 

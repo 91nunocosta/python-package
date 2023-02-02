@@ -1,5 +1,5 @@
 """Test prototype_python_library module."""
-from prototype_python_library import add, fib, subtract
+from prototype_python_library import add, fib, multiply, subtract
 
 
 def test_add():
@@ -11,6 +11,11 @@ def test_add():
 def test_subtract():
     """Test subtract function."""
     assert subtract(5, 3) == 2
+
+
+def test_multiply():
+    """Test multiply function."""
+    assert multiply(2, 2) == 4
 
 
 def test_fib():
