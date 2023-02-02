@@ -4,7 +4,7 @@ version = "0.12.0"
 license = "MIT"
 description = "A prototype python library."
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
-readme = "README.rst"
+readme = "README.md"
 repository = "https://github.com/91nunocosta/prototype-python-library/"
 documentation = "https://91nunocosta.github.io/prototype-python-library/prototype_python_library.html"
 
