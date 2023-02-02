@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.12.0 (2023-02-02)
+### Feature
+* Add power function ([`f3f942f`](https://github.com/91nunocosta/prototype-python-library/commit/f3f942f530589e69fff821d9ca9f53460d0ae674))
+
 ## v0.11.0 (2023-02-02)
 ### Feature
 * Add division ([`d9f7219`](https://github.com/91nunocosta/prototype-python-library/commit/d9f7219f5ead22db27c17b0c58efc872cb083219))
