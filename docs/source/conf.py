@@ -1,11 +1,11 @@
 # -- Project information
 
 project = "Prototype Python Project"
-copyright = "2021, Nuno Costa"  # pylint: disable=redefined-builtin
+copyright = "2023, Nuno Costa"  # pylint: disable=redefined-builtin
 author = "Nuno Costa"
 
-release = "0.4"
-version = "0.4.0"
+release = "0.9"
+version = "0.9.0"
 
 # -- General configuration
 
