@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.13.0 (2023-02-02)
+### Feature
+* Add Calculator ([`d1cabee`](https://github.com/91nunocosta/prototype-python-library/commit/d1cabeefe90f2dfe6599f19464667f9849d77ffa))
+
+### Documentation
+* Replace sphinx with pdocs ([`c1f22df`](https://github.com/91nunocosta/prototype-python-library/commit/c1f22df3879bb4568d6f313456745bfbc6e27999))
+
 ## v0.12.0 (2023-02-02)
 ### Feature
 * Add power function ([`f3f942f`](https://github.com/91nunocosta/prototype-python-library/commit/f3f942f530589e69fff821d9ca9f53460d0ae674))
