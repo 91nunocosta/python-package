@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.11.0 (2023-02-02)
+### Feature
+* Add division ([`d9f7219`](https://github.com/91nunocosta/prototype-python-library/commit/d9f7219f5ead22db27c17b0c58efc872cb083219))
+
 ## v0.10.0 (2023-02-02)
 ### Feature
 * Add multiplication ([`5b54fb5`](https://github.com/91nunocosta/prototype-python-library/commit/5b54fb58998f1b4955acd71fb6158bced4082dac))
