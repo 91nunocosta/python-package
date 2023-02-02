@@ -68,6 +68,19 @@ def divide(a: int, b: int) -> int:
     return a // b
 
 
+def power(b: int, e: int) -> int:
+    """Compute an exponential.
+
+    Args:
+        b (int): the base
+        e (int): the power
+
+    Returns:
+        int: power e of b
+    """
+    return b**e
+
+
 def fib(n: int) -> int:
     """Compute an element in the fibonacci sequence.
 
