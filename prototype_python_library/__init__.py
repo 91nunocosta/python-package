@@ -100,3 +100,23 @@ def fib(n: int) -> int:
         return 1
 
     return fib(n - 1) + fib(n - 2)
+
+
+class Calculator:
+    """An arithmetic calculator."""
+
+    def __init__(self):
+        """Initialize a calculator with numeric state 0."""
+        self.state = 0
+
+    def add(self, number: int) -> int:
+        """Add a number to the current state.
+
+        Args:
+            number (int): Number to add.
+
+        Returns:
+            int: The new state.
+        """
+        self.state += number
+        return self.state

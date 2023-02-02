@@ -1,5 +1,13 @@
 """Test prototype_python_library module."""
-from prototype_python_library import add, divide, fib, multiply, power, subtract
+from prototype_python_library import (
+    Calculator,
+    add,
+    divide,
+    fib,
+    multiply,
+    power,
+    subtract,
+)
 
 
 def test_add():
@@ -37,3 +45,15 @@ def test_fib():
     assert fib(4) == 3
     assert fib(5) == 5
     assert fib(6) == 8
+
+
+def test_calculator():
+    """Test calculator class."""
+    calculator = Calculator()
+    assert calculator.state == 0
+
+    calculator.add(50)
+    assert calculator.state == 50
+
+    calculator.add(100)
+    assert calculator.state == 150
