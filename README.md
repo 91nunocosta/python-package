@@ -14,7 +14,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/pyversions/prototype-python-library)](https://pypi.org/project/prototype-python-library/)
 
-An empty python package.
+An dummy prototype package.
 
 ## Installation
 

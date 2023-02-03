@@ -1,4 +1,4 @@
-"""An empty python package."""
+"""An dummy prototype package."""
 
 __version__ = "0.13.0"
 
