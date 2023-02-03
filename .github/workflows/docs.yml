@@ -25,7 +25,9 @@ jobs:
       - name: Install package from source
         run: poetry install
 
-      - run: poetry run pdoc -o pdocs/ ./prototype_python_library
+      - run: "poetry run pdoc -o pdocs/ \
+                --docformat google \
+                ./prototype_python_library"
 
       - uses: actions/upload-pages-artifact@v1
         with:
