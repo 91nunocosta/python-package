@@ -86,23 +86,3 @@ You can check the _tox_ phase locally:
 ```bash
 tox
 ```
-
-## Releasing new package version
-
-1. Ensure you have permissions to upload into
-<https://pypi.org/project/prototype-python-library/.>
-
-2. Prepare the development environment, as described in
-[**Preparing the development environment**](#preparing-the-development-environment).
-
-3. Create a `.secrets` file defining the required environment variables.
-
-   ```bash
-   cp .secrets_example .secrets
-   ```
-
-4. Replace the placeholders with the required tokens within `.secrets`.
-
-5. Run `semantic-release publish`.
-
-For more information refer to [semantic-release documentation](https://python-semantic-release.readthedocs.io/en/latest/)
