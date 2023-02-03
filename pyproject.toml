@@ -2,7 +2,7 @@
 name = "prototype-python-library"
 version = "0.13.0"
 license = "MIT"
-description = "A prototype python library."
+description = "Prototype Python Library"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/91nunocosta/prototype-python-library/"

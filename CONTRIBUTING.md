@@ -7,13 +7,13 @@ If you want to test or change the source code, prepare your local environment.
 1. Clone the repository.
 
    ```bash
-   git clone git@github.com:91nunocosta/python-package.git
+   git clone git@github.com:91nunocosta/prototype-python-library.git
    ```
 
 2. Open the project directory.
 
    ```bash
-   cd python-package
+   cd prototype-python-library
    ```
 
 3. Install [_poetry_](https://python-poetry.org/) _package and dependency manager_.
