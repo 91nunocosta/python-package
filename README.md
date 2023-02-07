@@ -1,4 +1,4 @@
-# Python Package
+# Prototype Python Library
 
 [![Cookiecutter](https://img.shields.io/badge/built%20with-Cookiecutter-ff69b4.svg?logo=cookiecutter)](https://github.com/91nunocosta/python-package-cookiecutter)
 
@@ -14,7 +14,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/pyversions/prototype-python-library)](https://pypi.org/project/prototype-python-library/)
 
-An dummy prototype package.
+Prototype Python Library
 
 ## Installation
 
@@ -31,7 +31,7 @@ pip install prototype-python-library
    ... 0
 ```
 
-For more details read the
+For more details, read the
 [documentation](https://91nunocosta.github.io/prototype-python-library/prototype_python_library.html).
 
 ## Contributing
