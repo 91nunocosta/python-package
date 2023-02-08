@@ -25,10 +25,10 @@ pip install prototype-python-library
 ## Usage
 
 ```python
-   >>> from prototype_python_library
-   >>> import fib
-   >>> fib(0)
-   ... 0
+>>> from prototype_python_library import fib
+>>> fib(0)
+0
+
 ```
 
 For more details, read the
