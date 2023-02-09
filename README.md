@@ -1,6 +1,6 @@
 # Prototype Python Library
 
-[![Cookiecutter](https://img.shields.io/badge/built%20with-Cookiecutter-ff69b4.svg?logo=cookiecutter)](https://github.com/91nunocosta/python-package-cookiecutter/releases/tag/v0.7.1)
+[![Cookiecutter](https://img.shields.io/badge/built%20with-Cookiecutter-ff69b4.svg?logo=cookiecutter)](https://github.com/91nunocosta/python-package-cookiecutter/releases/tag/v0.7.2)
 
 [![GitHub](https://img.shields.io/github/license/91nunocosta/prototype-python-library)](https://github.com/91nunocosta/prototype-python-library/blob/master/LICENSE)
 
