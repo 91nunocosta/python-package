@@ -8,7 +8,7 @@
 
 [![Codacy coverage](https://app.codacy.com/project/badge/Coverage/cb92f3f137454fae8697c7a6e7334f74)](https://www.codacy.com/gh/91nunocosta/prototype-python-library/dashboard?utm_source=github.com&utm_medium=referral&utm_content=91nunocosta/prototype-python-library&utm_campaign=Badge_Coverage)
 
-[![Build](https://img.shields.io/github/workflow/status/91nunocosta/prototype-python-library/Semantic%20Release)](https://github.com/91nunocosta/prototype-python-library/actions/workflows/release_package.yml)
+[![GitHub branch checks state](https://img.shields.io/github/checks-status/91nunocosta/prototype-python-library/master)](https://github.com/91nunocosta/prototype-python-library)
 
 [![Python versions](https://img.shields.io/pypi/v/prototype-python-library)](https://pypi.org/project/prototype-python-library/)
 
