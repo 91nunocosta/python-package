@@ -1,8 +1,10 @@
 # Prototype Python Library
 
-[![Cookiecutter](https://img.shields.io/badge/built%20with-Cookiecutter-ff69b4.svg?logo=cookiecutter)](https://github.com/91nunocosta/python-package-cookiecutter/releases/tag/v0.10.0)
+[![Cookiecutter](https://img.shields.io/badge/built%20with-Cookiecutter-ff69b4.svg?logo=cookiecutter)](https://github.com/91nunocosta/python-package-cookiecutter/releases/tag/v0.9.0)
 
 [![GitHub](https://img.shields.io/github/license/91nunocosta/prototype-python-library)](https://github.com/91nunocosta/prototype-python-library/blob/master/LICENSE)
+
+![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)
 
 [![Codacy](https://app.codacy.com/project/badge/Grade/cb92f3f137454fae8697c7a6e7334f74)](https://www.codacy.com/gh/91nunocosta/prototype-python-library/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=91nunocosta/prototype-python-library&amp;utm_campaign=Badge_Grade)
 
