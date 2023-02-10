@@ -1,21 +1,43 @@
 ---
-name: Run tests
+name: Lint codebase
 on:  # yamllint disable-line rule:truthy
   push:
     branches: [master]
-    paths:
-      - '**.py'
-      - 'pyproject.toml'
-      - 'README.md'
-      - '.github/workflows/test.yml'
-  pull_request:
-    paths:
-      - '**.py'
-      - 'pyproject.toml'
-      - 'README.md'
-      - '.github/workflows/test.yml'
+    pull_request: # yamllint disable-line rule:truthy
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install Poetry
+        run: pip install poetry
+
+      - name: Install poetry
+        run: pipx install poetry
+
+      - name: cache poetry environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'poetry'
+
+      - name: install package
+        run: poetry install
+
+      - name: install pre-commit
+        run: pip install pre-commit
+
+      - name: cache pre-commit environment
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit||${{ hashFiles('.pre-commit-config.yaml') }}
+
+      - name: run pre-commit
+        run: poetry run pre-commit run --all-files --show-diff-on-failure --color=always
+
   test:
     runs-on: ubuntu-latest
     strategy:
