@@ -26,8 +26,6 @@ pip install prototype-python-library
 
 ## Usage
 
-### Python
-
 ```python
 >>> from prototype_python_library import fib
 >>> fib(0)
@@ -37,15 +35,6 @@ pip install prototype-python-library
 
 For more details, read the
 [documentation](https://91nunocosta.github.io/prototype-python-library/prototype_python_library.html).
-
-### Command Line Interface
-
-```bash
-prototype-python-library --help
-```
-
-The above command displays help on how to use the command line interface.
-The same information is also available [here](.CLI.md)
 
 ## Contributing
 
