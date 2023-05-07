@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "prototype-python-library"
+name = "template-pyproject"
 version = "0.1.0"
 license = "MIT"
-description = "Prototype Python Library"
+description = "Template PyProject"
 authors = ["Nuno Costa <91nunocosta@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/91nunocosta/prototype-python-library/"
-documentation = "https://91nunocosta.github.io/prototype-python-library/prototype_python_library.html"
+repository = "https://github.com/91nunocosta/template-pyproject/"
 
+documentation = "https://91nunocosta.github.io/template-pyproject/template_pyproject.html"
 [tool.poetry.scripts]
-prototype-python-library = "prototype_python_library.cli:app"
+template-pyproject = "template_pyproject.cli:app"
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
 typer = {extras = ["all"], version = "^0.7.0"}
@@ -28,12 +28,12 @@ optional = true
 pytest = "^7.2.1"
 pytest-cov = "^3.0.0"
 
+
 [tool.poetry.group.docs]
 optional = true
 
 [tool.poetry.group.docs.dependencies]
 pdoc = "^12.3.1"
-
 [tool.poetry.group.cd]
 optional = true
 
@@ -47,11 +47,10 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.semantic_release]
 version_variable = [
-    "prototype_python_library/__init__.py:__version__",
+    "template_pyproject/__init__.py:__version__",
     "pyproject.toml:version"
 ]
 branch = "master"
 build_command = "pip install poetry && poetry build"
 upload_to_release = true
-
 upload_to_repository = true

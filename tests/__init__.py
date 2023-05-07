@@ -1,1 +1,1 @@
-"""Prototype Python Library tests."""
+"""Template PyProject tests."""

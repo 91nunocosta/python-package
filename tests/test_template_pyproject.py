@@ -1,5 +1,5 @@
-"""Test prototype_python_library module."""
-from prototype_python_library import fib
+"""Test template_pyproject module."""
+from template_pyproject import fib
 
 
 def test_fib() -> None:

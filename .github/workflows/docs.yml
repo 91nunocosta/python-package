@@ -33,7 +33,7 @@ jobs:
         run: poetry install --with docs
 
       - name: generate documentation HTML
-        run: poetry run pdoc -o pdocs --docformat google ./prototype_python_library
+        run: poetry run pdoc -o pdocs --docformat google ./template_pyproject
 
       - name: upload documentation HTML to GitHub pages
         uses: actions/upload-pages-artifact@v1

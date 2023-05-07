@@ -1,7 +1,7 @@
 """Provide the command line interface prototype_python_library."""
 import typer
 
-from prototype_python_library import fib
+from template_pyproject import fib
 
 app: typer.Typer = typer.Typer()
 
