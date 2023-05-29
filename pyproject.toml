@@ -20,7 +20,7 @@ optional = true
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.2.1"
-pytest-cov = "^3.0.0"
+pytest-cov = "^4.1.0"
 
 [tool.poetry.group.cd]
 optional = true
